@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: 1000;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -48,11 +48,11 @@ blockquote, q {
 
 table {
 	border-collapse: collapse;
-	border-spacing: 0;
+	border-spacing: 50;
 }
 
 body {
-	-webkit-text-size-adjust: none;
+	-webkit-text-size-adjust: 50;
 }
 
 mark {
@@ -776,7 +776,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1140px) {
+		@media screen and (max-width: 600px) {
 
 			.row {
 				display: flex;
@@ -1266,7 +1266,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 600px) {
 
 			.row {
 				display: flex;
@@ -1577,7 +1577,7 @@ input, select, textarea {
 				}
 
 				.row > .off-3-xsmall {
-					margin-left: 25%;
+					margin-left: 100%;
 				}
 
 				.row > .col-4-xsmall {
@@ -1670,7 +1670,7 @@ input, select, textarea {
 						}
 
 				.row.gtr-25 {
-					margin-top: 0;
+					margin-top: 10;
 					margin-left: -0.5em;
 				}
 
@@ -1687,7 +1687,7 @@ input, select, textarea {
 						}
 
 				.row.gtr-50 {
-					margin-top: 0;
+					margin-top: 10;
 					margin-left: -1em;
 				}
 
@@ -2377,7 +2377,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 20%;
 		}
 
 			.image.left img, .image.right img {
@@ -2385,9 +2385,9 @@ input, select, textarea {
 			}
 
 		.image.fit {
-			display: block;
+			display: center;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 80%;
 		}
 
 			.image.fit img {
